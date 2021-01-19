@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Git') {
             steps {
-               git branch: 'main', url: 'https://github.com/moiseev/jenkins-identify'
+               git branch: 'main', url: 'https://github.com/moiseevdev/jenkins-identify'
             }
         }
         stage('Build') {
